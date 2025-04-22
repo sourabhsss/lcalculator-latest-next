@@ -7,9 +7,4 @@
   NEXT_PUBLIC_API_URL = "https://api.example.com"
 
 [[plugins]]
-  package = "@netlify/plugin-nextjs"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200 
+  package = "@netlify/plugin-nextjs" 
